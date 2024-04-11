@@ -52,7 +52,7 @@ $sql = $conexion->query("SELECT * FROM tbl_tarea WHERE id_tarea = $id");
       <div>
         
       <button type="button" class="btn btn-secondary">
-     <a style="text-decoration: none; color:white " class="volver" href="http://localhost/nueva/deivisTarea/index.php">Volver</a>
+     <a style="text-decoration: none; color:white " class="volver" href="http://localhost/deivisTarea/index.php">Volver</a>
       </button>
     
      

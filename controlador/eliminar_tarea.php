@@ -1,4 +1,8 @@
 <?php
+if (!empty($_POST['btnEliminar'])) { //si el boton registrar no esta vacio
+    if (!empty($_POST['titulo']) and !empty($_POST['descripcion']) //si los campos no estan vacios
+    and !empty($_POST['fecha_creacion'])and !empty($_POST['fecha_finalizacion']) 
+    and !empty($_POST['completada'])) {;
 
     
         $titulo = $_POST['titulo'];
@@ -17,4 +21,8 @@
            
         }
     
+    }else {
+        echo "<div class='alert alert-warning'>campos obligatorios</div>";
+    }
+}
 ?>

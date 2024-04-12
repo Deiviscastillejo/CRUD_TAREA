@@ -16,7 +16,7 @@ CREATE TABLE tbl_tarea(
     fecha_creacion date,
     fecha_finalizacion date,
     completada varchar(20)
-    
 );
+CREATE TABLE tarea.tbl_usuario ( id_usuario INT NOT NULL AUTO_INCREMENT, nombres VARCHAR(50) NULL, apellidos VARCHAR(50) NULL, email VARCHAR(45) NULL, contrasena VARCHAR(45) NULL, PRIMARY KEY (id_usuario));
 
 
